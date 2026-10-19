@@ -1,6 +1,6 @@
 # Initial portfolio verification report
 
-Status: three public utilities and automated deployment verified; analytics enabled, dashboard collection verification in progress. October 19, 2026.
+Status: initial launch complete. Three public utilities, automated tests/deployment and analytics collection verified. October 19, 2026.
 
 ## Delivered
 
@@ -45,7 +45,7 @@ Initial deployment ID: `f702141c-76ce-464a-b537-f939dca12e88`. Analytics/privacy
 
 `node scripts/verify-live.mjs https://labbench-tools.pages.dev` passed 14 public checks, including all pages/assets, canonical origin, real sitemap, robots, security headers and HTTP 404 on a nonexistent route. See `live-verification.json` for timestamped observations. Shared application JavaScript and CSS total 11,639 bytes uncompressed, excluding the third-party analytics beacon; this is not a lab or field performance score.
 
-The owner explicitly approved free Cloudflare Web Analytics after automatic review initially blocked enabling a persistent data-collection setting. It is now enabled, its script appears in public HTML, the privacy notice is updated and CSP permits the specific provider endpoints. The dashboard currently reports insufficient data; actual dashboard arrivals are still being verified. No cookies or custom calculator-input events are added by the application. Cloudflare's current [FAQ](https://developers.cloudflare.com/web-analytics/faq/) says query strings are not logged.
+The owner explicitly approved free Cloudflare Web Analytics after automatic review initially blocked enabling a persistent data-collection setting. It is now enabled, its script appears in public HTML, the privacy notice is updated and CSP permits the specific provider endpoints. After controlled browser visits, the dashboard for labbench-tools.pages.dev displayed 1 visit and 2 page views. The detailed charts still reported insufficient data and page-load time remained 0 ms, so field performance is not established. These are QA visits, not organic demand or customer validation. No cookies or custom calculator-input events are added by the application. Cloudflare's current [FAQ](https://developers.cloudflare.com/web-analytics/faq/) says query strings are not logged.
 
 ## Costs and commercial limits
 
@@ -53,6 +53,6 @@ No money spent, domain purchased, paid hosting enabled, AI production API called
 
 ## Remaining completion checks
 
-1. Confirm controlled visits appear in the analytics dashboard before claiming full collection verification.
-2. Finish synchronizing release documentation to GitHub and record the final checks.
+1. Analytics collection verified through nonzero dashboard totals after controlled visits; no remaining analytics authorization blocker.
+2. Source and release documentation are synchronized to GitHub. Documentation release 6c87533b9397f47a5b19cc85e68fc074b808d3e7 passed both GitHub CI (run 39207324765) and Cloudflare Pages deployment 058aef09-c629-4361-9aa0-b830b1bcdb41. The executable application is unchanged from the verified analytics/privacy release.
 3. Next business experiment: verify Search Console ownership, submit the real sitemap, and assess organic impressions and useful visits over 60–90 days before requesting monetization enrollment. Search Console setup and revenue validation are not claimed complete.
