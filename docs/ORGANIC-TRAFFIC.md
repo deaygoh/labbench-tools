@@ -35,7 +35,7 @@ When Search Console data becomes available, record the initial 7-day and 28-day 
 
 Priorities after the first crawl: fix actual crawl/canonical errors first; improve a page when impressions reveal a mismatched question or weak snippet; expand the energy topic only when observed demand or new primary user-problem evidence justifies it. Treat ranking as an outcome to measure, not something the deployment establishes.
 
-No money, paid keyword tools, additional analytics products, ads, affiliate enrollment or unsolicited outreach were used. No automated follow-up schedule has been created.
+No money, paid keyword tools, additional analytics products, ads, affiliate enrollment or unsolicited outreach were used. An active daily follow-up is now configured; see Scheduled continuation below.
 
 Reference workflow: [Google ownership verification](https://support.google.com/webmasters/answer/9008080?hl=en), [sitemap submission and diagnostics](https://support.google.com/webmasters/answer/7451001?hl=en), [SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
 
@@ -48,4 +48,8 @@ Reference workflow: [Google ownership verification](https://support.google.com/w
 - Homepage URL inspection: **URL is unknown to Google**, not indexed. One manual indexing request was attempted. Google returned **Quota Exceeded**, asking to try again tomorrow. No successful indexing request is claimed and no additional page requests were attempted after that limit. A reCAPTCHA-service connection warning also appeared; no CAPTCHA was solved or bypassed.
 - No account-access or ownership-approval blocker remains. Remaining work depends on Google's processing/retry and daily request limits. The available evidence does not identify a site defect requiring speculative sitemap changes. Google documents that some fetch failures are transient or associated with low crawl demand and will be retried; that is a possible explanation, not a confirmed diagnosis.
 
-Next check: on or after October 20, recheck the submitted sitemap before resubmitting; investigate any new specific error, retry a small number of manual indexing requests after the quota resets if still useful, and record actual ingestion/indexing results. Do not repeatedly resubmit a healthy sitemap or treat requests as ranking evidence. A follow-up schedule has not been created, so no unattended recheck is promised.
+Next check: on or after October 20, recheck the submitted sitemap before resubmitting; investigate any new specific error, retry a small number of manual indexing requests after the quota resets if still useful, and record actual ingestion/indexing results. Do not repeatedly resubmit a healthy sitemap or treat requests as ranking evidence. The active daily follow-up will perform this recheck starting October 20.
+
+## Scheduled continuation
+
+The owner requested autonomous follow-up on October 19. Automation labbench-organic-search-follow-up is active in this chat, daily at 9:00 AM America/New_York. Its first substantive check is gated to October 20, 2026, at or after 9:00 AM. It will recheck sitemap ingestion, retry a small number of indexing requests after quota reset, investigate actual errors, and continue evidence-led content and technical improvements. Successful routine runs are muted; human involvement is requested only for necessary account access, approvals or actions. The follow-up goal remains active until actual work and verification are completed; scheduling alone does not prove sitemap ingestion or indexing.
