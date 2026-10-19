@@ -1,0 +1,108 @@
+{
+  "origin": "https://labbench-tools.pages.dev",
+  "verifiedAt": "2026-10-19T06:16:40.735Z",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 3659,
+      "csp": true
+    },
+    {
+      "path": "/raid-capacity/",
+      "status": 200,
+      "bytes": 5918,
+      "csp": true
+    },
+    {
+      "path": "/transfer-time/",
+      "status": 200,
+      "bytes": 5996,
+      "csp": true
+    },
+    {
+      "path": "/energy-cost/",
+      "status": 200,
+      "bytes": 6102,
+      "csp": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "bytes": 3036,
+      "csp": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "bytes": 2798,
+      "csp": true
+    },
+    {
+      "path": "/disclosure/",
+      "status": 200,
+      "bytes": 2355,
+      "csp": true
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "bytes": 2530,
+      "csp": true
+    },
+    {
+      "path": "/guides/raid-capacity-tb-vs-tib/",
+      "status": 200,
+      "bytes": 6326,
+      "csp": true
+    },
+    {
+      "path": "/guides/backup-window-planning/",
+      "status": 200,
+      "bytes": 6397,
+      "csp": true
+    },
+    {
+      "path": "/app.mjs",
+      "status": 200,
+      "bytes": 3708,
+      "csp": true
+    },
+    {
+      "path": "/calculations.mjs",
+      "status": 200,
+      "bytes": 2489,
+      "csp": true
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 5743,
+      "csp": true
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "bytes": 182,
+      "csp": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 77,
+      "csp": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 790,
+      "csp": true
+    },
+    {
+      "path": "/missing-release-check",
+      "status": 404,
+      "bytes": 1417,
+      "csp": true
+    }
+  ]
+}
