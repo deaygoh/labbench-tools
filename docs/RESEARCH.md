@@ -30,3 +30,13 @@ After launch, verify Search Console ownership and submit the sitemap if owner ac
 ## Evidence limitations
 
 No paid keyword tools or advertising experiments were used. Existing competitors validate that the tasks are recognized, but do not establish current unmet demand. Conversion, acquisition cost, ad approval and affiliate eligibility remain untested. A static portfolio can require little technical maintenance while still requiring distribution and periodic editorial attention.
+
+## Direct user-problem evidence added during completion audit
+
+The following original community discussions strengthen the selected niche's qualitative demand evidence. They are self-reported problems rather than representative surveys; no engagement counts or search-volume estimates are inferred.
+
+- RAID: a [Synology community user built another calculator](https://www.reddit.com/r/synology/comments/1fsnsw3/i_got_tired_of_the_synology_raid_calculator_not/) after encountering the vendor tool's then-current drive-size limits. This demonstrates a concrete reason to seek an alternative. It does not establish that the vendor still has that limit today, nor does LabBench claim to replace SHR modeling.
+- Backup windows: [Online backup versus ISP speed](https://www.reddit.com/r/homelab/comments/1ne8fv3) describes assessing a roughly 1 TB full backup against a 50 Mbps upload connection and the disruption from a long transfer. A [TrueNAS user](https://forums.truenas.com/t/off-site-backup-with-small-bandwidth/37585) likewise reports a slow uplink as a barrier to an initial roughly 1 TB backup. These support explicit data-size, link-rate and utilization inputs.
+- Energy: [a home-lab owner asks about annual electricity cost](https://www.reddit.com/r/homelab/comments/1w65mmv/how_much_does_your_homelab_electricity_cost_a_year/), with replies discussing continuous draw and local tariffs. This supports annual estimates and a user-entered rate; no anecdotal hardware measurements are used as defaults or represented as benchmarks.
+
+The existing free alternatives remain substantial competition. These observations support building and testing an inexpensive initial product, not a claim of proven acquisition, willingness to pay or earnings.
