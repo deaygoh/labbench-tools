@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 const origin=process.argv[2];
 assert.ok(/^https:\/\/[a-z0-9.-]+$/i.test(origin||''),'Pass the actual production HTTPS origin.');
 const results=[];
-for(const path of ['/','/raid-capacity/','/transfer-time/','/energy-cost/','/privacy/','/about/','/disclosure/','/app.mjs','/calculations.mjs','/style.css','/favicon.svg','/robots.txt','/sitemap.xml','/missing-release-check']){
+for(const path of ['/','/raid-capacity/','/transfer-time/','/energy-cost/','/privacy/','/about/','/disclosure/','/guides/','/guides/raid-capacity-tb-vs-tib/','/guides/backup-window-planning/','/app.mjs','/calculations.mjs','/style.css','/favicon.svg','/robots.txt','/sitemap.xml','/missing-release-check']){
   const response=await fetch(origin+path,{signal:AbortSignal.timeout(20000)});
   const body=await response.text();const expected=path==='/missing-release-check'?404:200;
   assert.equal(response.status,expected,`${path} HTTP status`);
