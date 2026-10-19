@@ -1,0 +1,90 @@
+{
+  "origin": "https://labbench-tools.pages.dev",
+  "verifiedAt": "2026-10-19T05:57:22.038Z",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 3274,
+      "csp": true
+    },
+    {
+      "path": "/raid-capacity/",
+      "status": 200,
+      "bytes": 5726,
+      "csp": true
+    },
+    {
+      "path": "/transfer-time/",
+      "status": 200,
+      "bytes": 5776,
+      "csp": true
+    },
+    {
+      "path": "/energy-cost/",
+      "status": 200,
+      "bytes": 6102,
+      "csp": true
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "bytes": 3036,
+      "csp": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "bytes": 2798,
+      "csp": true
+    },
+    {
+      "path": "/disclosure/",
+      "status": 200,
+      "bytes": 2355,
+      "csp": true
+    },
+    {
+      "path": "/app.mjs",
+      "status": 200,
+      "bytes": 3708,
+      "csp": true
+    },
+    {
+      "path": "/calculations.mjs",
+      "status": 200,
+      "bytes": 2489,
+      "csp": true
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 5442,
+      "csp": true
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "bytes": 182,
+      "csp": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "bytes": 77,
+      "csp": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "bytes": 557,
+      "csp": true
+    },
+    {
+      "path": "/missing-release-check",
+      "status": 404,
+      "bytes": 1417,
+      "csp": true
+    }
+  ]
+}

@@ -25,6 +25,6 @@ Production: set `SITE_URL` to the actual HTTPS origin before building. This emit
 - `tests/`: independent numerical examples, boundaries, build/route checks.
 - `docs/`: research, deployment, operations, verification status.
 
-GitHub Actions runs tests and builds on main pushes and pull requests. Cloudflare Pages should run `npm test && npm run build`, output `dist`, to prevent publishing a failing build. Deployment and analytics are not configured until account setup and public verification are complete.
+GitHub Actions runs tests and builds on main pushes and pull requests. Cloudflare Pages runs `npm test && npm run build`, output `dist`, to prevent publishing a failing build. Production: https://labbench-tools.pages.dev. Automatic deployments from main are enabled. Cloudflare Web Analytics is enabled and injected by the hosting provider.
 
-All calculator inputs can become public when explicitly shared in a URL. No affiliate, ad or analytics code is active. See [release status](docs/REPORT.md).
+Calculator inputs can become public when explicitly shared in a URL. No affiliate or ad code is active. See [release status](docs/REPORT.md).
