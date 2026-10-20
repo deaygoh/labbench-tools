@@ -39,7 +39,7 @@ No money, paid keyword tools, additional analytics products, ads, affiliate enro
 
 Reference workflow: [Google ownership verification](https://support.google.com/webmasters/answer/9008080?hl=en), [sitemap submission and diagnostics](https://support.google.com/webmasters/answer/7451001?hl=en), [SEO starter guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide).
 
-## Final observed Search Console state
+## October 19 observed Search Console state
 
 - Ownership: **verified**, HTML tag; the verified property is available in the owner's Search Console account.
 - Sitemap: submitted successfully, then resubmitted once after diagnosis. Latest report still says **Unknown / Couldn't fetch / 0 discovered pages**. Successful sitemap ingestion is **not verified**.
@@ -53,3 +53,23 @@ Next check: on or after October 20, recheck the submitted sitemap before resubmi
 ## Scheduled continuation
 
 The owner requested autonomous follow-up on October 19. Automation labbench-organic-search-follow-up is active in this chat, daily at 9:00 AM America/New_York. Its first substantive check is gated to October 20, 2026, at or after 9:00 AM. It will recheck sitemap ingestion, retry a small number of indexing requests after quota reset, investigate actual errors, and continue evidence-led content and technical improvements. Successful routine runs are muted; human involvement is requested only for necessary account access, approvals or actions. The follow-up goal remains active until actual work and verification are completed; scheduling alone does not prove sitemap ingestion or indexing.
+
+## October 20 scheduled follow-up
+
+Checked at approximately 9:03–9:09 AM America/New_York. Existing account access worked; no new grant or owner action was required. The scheduled run proceeded independently of the thread goal's prior blocked label.
+
+| Evidence | Observed result |
+|---|---|
+| Homepage URL inspection | **URL is on Google / Page is indexed**. Last crawl displayed Oct 19, 2026, 4:12:03 AM, Googlebot smartphone; fetch successful, crawl and indexing allowed. User-declared canonical is the production homepage; Google-selected canonical is the inspected URL. No referring sitemap detected. |
+| All three calculators and both guides | Each inspection reports **URL is unknown to Google / not indexed**, with no recorded crawl. This does not establish a crawl rejection. |
+| Submitted sitemap | **Unknown / Couldn't fetch / 0 discovered pages**; detail shows last read 10/19/26 and **Sitemap could not be read**. Ingestion remains unverified. No resubmission made today. |
+| Google's live sitemap test | At **Oct 20, 2026, 9:06:50 AM**, Google Inspection Tool smartphone reports **URL is available to Google**, fetch successful, crawl allowed Yes, indexing allowed Yes. This is fetch eligibility evidence, not sitemap ingestion or a request to index the XML. |
+| Public checks | All **17** live route/asset/security/canonical checks pass at 13:05:37 UTC. Sitemap HTTP 200, `application/xml`, XML parses and contains all 10 production URLs; robots permits crawling and advertises the exact sitemap URL. |
+| Manual actions | **No issues detected**. |
+| Performance and aggregate page indexing | Both still show **Processing data, please check again in a day or so**. Performance has no query/page data; no numeric traffic baseline can yet be reported. |
+
+**Indexing requests:** The homepage is already indexed, so no repeat request was needed. One request for `/raid-capacity/` was attempted; after Google's live eligibility check, Google returned **Quota Exceeded**, asking to try tomorrow. **Zero accepted requests today.** All further indexing requests stopped, including the other calculators and two guides. The reCAPTCHA service connection warning reappeared; no challenge was solved, no reload to obtain one was attempted and no limit was bypassed.
+
+The homepage's confirmed indexing is progress independent of manual request acceptance. The remaining fetch-report discrepancy has no demonstrated configuration cause: public XML/robots/canonicals and Google's live fetch succeed. Verification material and working site configuration were preserved. No speculative source/content changes were deployed, and no test rerun was needed for this documentation-only update.
+
+Automation configuration was checked: **ACTIVE**, daily 9:00 AM, routine success notifications muted. Next scheduled check is October 21; recheck ingestion and page status first, then attempt only useful requests if permitted, stopping immediately on quota or a challenge. A goal unblock is not a prerequisite. Continue content improvements when actual search evidence or a concrete technical defect justifies them; no impressions, clicks or rankings are claimed from this run.
