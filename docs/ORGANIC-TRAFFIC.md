@@ -85,3 +85,15 @@ Checked beginning at 9:04 AM America/New_York. Existing Search Console access wo
 - One manual indexing request for `/raid-capacity/` was attempted. Google again returned **Quota Exceeded**, asking to try tomorrow, alongside the reCAPTCHA-service connection warning. **Zero requests accepted today**; further indexing requests stopped. No challenge was solved or bypassed. No repeat request was made for the already indexed homepage.
 
 The existing automation remains **ACTIVE**, daily at 9:00 AM, with routine notifications muted. Continue October 22 without requiring an owner unblock; recheck ingestion and useful indexing requests, stop on limits, and distinguish accepted requests from actual indexing. No owner action is currently required for the reported quota/processing delay. This update changes documentation only; the live verification passed and no application test rerun was needed.
+
+## October 22 scheduled follow-up
+
+Checked around 9:00 AM America/New_York using the existing verified property and account access.
+
+- Homepage inspection remains **URL is on Google / Page is indexed**. The backup-window guide is **URL is unknown to Google**, with no recorded crawl. The other calculators and RAID guide were not individually reinspected today.
+- Submitted sitemap remains **Unknown / Couldn't fetch / 0 discovered pages**, submitted October 19, with a blank last-read table cell. No resubmission was made. Google's live test of the exact sitemap URL at **Oct 22, 2026, 9:01 AM** reports **URL is available to Google / Page can be indexed**. Actual sitemap ingestion remains unverified.
+- All **17** public verification checks pass at **13:00:09 UTC**. Separate XML/robots checks confirm sitemap HTTP 200, `application/xml`, 10 parsed URLs and robots permission with the correct sitemap declaration. Manual actions: **No issues detected**. Aggregate indexing is still **Processing data**.
+- Performance now covers **October 18–20, 2026**, with **0 clicks, 0 impressions and 0% CTR**. Both Queries and Pages tables show **No data**. This short, lagging window does not provide a complete 7-day or 28-day post-launch baseline or evidence for query-led content changes; the position value of 0 is not a measured ranking.
+- One indexing request for `/guides/backup-window-planning/` returned **Quota Exceeded**, asking to retry tomorrow. **Zero accepted requests today.** Further requests stopped immediately; no challenge was solved or limit bypassed. The reCAPTCHA-service connection warning also appeared. The already indexed homepage did not need another request.
+
+No technical defect was demonstrated by the current checks. Verification material, sitemap and working configuration were preserved. This documentation-only update requires no new application tests. The existing automation was checked **ACTIVE**, daily at 9:00 AM, with routine notifications muted. Continue October 23 without an owner unblock, checking actual ingestion/indexing and useful requests within Google's limits. No owner involvement is currently required.
