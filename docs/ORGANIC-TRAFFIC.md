@@ -97,3 +97,11 @@ Checked around 9:00 AM America/New_York using the existing verified property and
 - One indexing request for `/guides/backup-window-planning/` returned **Quota Exceeded**, asking to retry tomorrow. **Zero accepted requests today.** Further requests stopped immediately; no challenge was solved or limit bypassed. The reCAPTCHA-service connection warning also appeared. The already indexed homepage did not need another request.
 
 No technical defect was demonstrated by the current checks. Verification material, sitemap and working configuration were preserved. This documentation-only update requires no new application tests. The existing automation was checked **ACTIVE**, daily at 9:00 AM, with routine notifications muted. Continue October 23 without an owner unblock, checking actual ingestion/indexing and useful requests within Google's limits. No owner involvement is currently required.
+
+## October 23 scheduled follow-up
+
+Checked beginning at 9:01 AM America/New_York. The previously connected Edge browser is absent from the available browser inventory. The available in-app browser redirects the exact Search Console property URL to Google's **Sign in** screen. Consequently, current sitemap ingestion, indexing, manual actions and performance could not be read today. October 22 remains the latest authenticated evidence; no current Google status is inferred from public HTTP success.
+
+Public verification at **13:02:12 UTC** passes all **17** route, asset, security and canonical checks, including sitemap/robots HTTP 200 and the expected real 404. No application configuration or verification material was changed. No sitemap resubmission or indexing request was attempted today; **zero accepted requests**.
+
+Owner involvement is now needed to restore browser access: open the previously authorized Edge profile and reconnect its Codex browser extension, keeping Search Console signed in to the approved Google account. No password or new permission grant was requested through chat. The existing daily automation remains **ACTIVE**, and can resume automatically when access is available without a goal unblock. This documentation-only update needs no new application tests.
