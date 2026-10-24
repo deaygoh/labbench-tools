@@ -105,3 +105,15 @@ Checked beginning at 9:01 AM America/New_York. The previously connected Edge bro
 Public verification at **13:02:12 UTC** passes all **17** route, asset, security and canonical checks, including sitemap/robots HTTP 200 and the expected real 404. No application configuration or verification material was changed. No sitemap resubmission or indexing request was attempted today; **zero accepted requests**.
 
 Owner involvement is now needed to restore browser access: open the previously authorized Edge profile and reconnect its Codex browser extension, keeping Search Console signed in to the approved Google account. No password or new permission grant was requested through chat. The existing daily automation remains **ACTIVE**, and can resume automatically when access is available without a goal unblock. This documentation-only update needs no new application tests.
+
+## October 24 scheduled follow-up
+
+Edge browser access and the approved signed-in Search Console session are available again. No further owner action or new access grant was needed. Checks ran around 9:00 AM America/New_York.
+
+- Homepage remains **URL is on Google / Page is indexed**. The transfer calculator is **URL is unknown to Google**, with no recorded crawl. Other calculator/guide states were not refreshed today.
+- Submitted sitemap still reports **Unknown / Couldn't fetch / 0 discovered pages**, submitted October 19, blank last-read table cell. No resubmission was made. Google's live test of the exact sitemap at **Oct 24, 2026, 9:01 AM** again reports **URL is available to Google / Page can be indexed**. Ingestion remains unconfirmed.
+- Public verification at **12:59:32 UTC** passes all **17** route/asset/security/canonical checks. Separate checks confirm sitemap HTTP 200, `application/xml`, 10 parsed URLs and robots permission with the correct sitemap declaration. Manual actions: **No issues detected**. Aggregate indexing continues to show **Processing data**.
+- Performance now covers **October 18–22, 2026**, displaying **0 clicks, 0 impressions, 0% CTR** and no query rows. The available period is still shorter than a complete post-launch 7-day or 28-day window. No measured ranking or query-led content opportunity is established.
+- One indexing request for `/transfer-time/` returned **Quota Exceeded**, asking to retry tomorrow, with the reCAPTCHA-service connection warning. **Zero accepted requests today.** Further indexing requests stopped; no challenge was solved or limit bypassed. The homepage did not need another request.
+
+No concrete technical defect was identified, so verification material and working configuration were preserved. This documentation-only update needs no new application tests. The existing automation was checked **ACTIVE**, daily at 9:00 AM, routine notifications muted. Continue October 25 automatically, checking ingestion and useful indexing requests within Google's limits. The October 23 browser-access blocker is resolved; no owner involvement is currently needed.
