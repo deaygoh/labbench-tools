@@ -117,3 +117,15 @@ Edge browser access and the approved signed-in Search Console session are availa
 - One indexing request for `/transfer-time/` returned **Quota Exceeded**, asking to retry tomorrow, with the reCAPTCHA-service connection warning. **Zero accepted requests today.** Further indexing requests stopped; no challenge was solved or limit bypassed. The homepage did not need another request.
 
 No concrete technical defect was identified, so verification material and working configuration were preserved. This documentation-only update needs no new application tests. The existing automation was checked **ACTIVE**, daily at 9:00 AM, routine notifications muted. Continue October 25 automatically, checking ingestion and useful indexing requests within Google's limits. The October 23 browser-access blocker is resolved; no owner involvement is currently needed.
+
+## October 25 scheduled follow-up
+
+Existing Edge account access worked. The scheduled run began at approximately 8:56 AM America/New_York; the single indexing retry was deferred until after 9:00 AM, more than 24 hours after the previous attempt.
+
+- Sitemap report remains **Unknown / Couldn't fetch / 0 discovered pages**, submitted October 19, blank last-read cell. No resubmission made. Google's live test at **Oct 25, 2026, 8:58 AM** reports **URL is available to Google / Page can be indexed**. Sitemap ingestion remains unverified.
+- Homepage inspection remains **URL is on Google / Page is indexed**. The RAID TB/TiB guide remains **URL is unknown to Google**, without a recorded crawl. Other calculator/guide inspections were not refreshed today.
+- All **17** public route, asset, security and canonical checks pass at **12:57:22 UTC**. Separate XML/robots checks confirm HTTP 200, `application/xml`, 10 parsed URLs and crawling allowed with the correct sitemap declaration. Manual actions: **No issues detected**. Aggregate indexing still reports **Processing data**.
+- Performance's available chart period is **October 18–23, 2026**, with **0 clicks, 0 impressions, 0% CTR**, no query rows and no measured ranking. This remains an incomplete post-launch 7-day/28-day baseline and offers no query evidence for content changes.
+- One indexing request for `/guides/raid-capacity-tb-vs-tib/` returned **Quota Exceeded**, asking to try tomorrow, alongside the reCAPTCHA-service connection warning. **Zero accepted requests today**; all further indexing requests stopped. No challenge was solved or limit bypassed. No request was needed for the indexed homepage.
+
+Verification material and working configuration were preserved; current diagnostics do not establish a site defect requiring a change. Documentation only was updated, so no new application tests were needed. The daily follow-up remains **ACTIVE** with routine notifications muted. Continue October 26 without an owner unblock; recheck ingestion and request eligibility, stop on limits, and report only confirmed search evidence. No owner involvement is currently required.
