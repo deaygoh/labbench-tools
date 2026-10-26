@@ -129,3 +129,11 @@ Existing Edge account access worked. The scheduled run began at approximately 8:
 - One indexing request for `/guides/raid-capacity-tb-vs-tib/` returned **Quota Exceeded**, asking to try tomorrow, alongside the reCAPTCHA-service connection warning. **Zero accepted requests today**; all further indexing requests stopped. No challenge was solved or limit bypassed. No request was needed for the indexed homepage.
 
 Verification material and working configuration were preserved; current diagnostics do not establish a site defect requiring a change. Documentation only was updated, so no new application tests were needed. The daily follow-up remains **ACTIVE** with routine notifications muted. Continue October 26 without an owner unblock; recheck ingestion and request eligibility, stop on limits, and report only confirmed search evidence. No owner involvement is currently required.
+
+## October 26 scheduled follow-up
+
+Checked beginning at approximately 9:04 AM America/New_York. Edge is absent from the available browser inventory, and attempting to open the exact Search Console property in the existing Edge connection returns **Browser is not available: edge**. The authenticated October 25 evidence remains the latest available. Today's sitemap ingestion, Google live test, manual actions, page indexing and search performance could not be checked. No current Google status is inferred from the public checks, and no indexing request or sitemap submission was attempted; **zero accepted requests today**.
+
+All **17** public route, asset, security and canonical checks pass at **13:04:36 UTC**, including sitemap/robots HTTP 200 and the expected real 404. No site configuration or verification material was changed. This documentation-only update needs no new application tests.
+
+Owner action is needed to reopen the previously authorized Edge profile and restore its Codex browser extension connection with Search Console signed in. No new grant or credential disclosure is needed. The existing daily automation was checked **ACTIVE**, with routine notifications muted, and will retry automatically when access returns without requiring a goal unblock.
