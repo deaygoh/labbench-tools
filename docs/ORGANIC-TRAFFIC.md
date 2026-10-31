@@ -171,3 +171,17 @@ This heartbeat ran at approximately **12:36 AM America/New_York**, using the exi
 - All **17** public route/asset/security/canonical checks pass at **04:36:50 UTC**. Separate XML/robots checks confirm HTTP 200, `application/xml`, 10 parsed URLs and crawling allowed with the correct sitemap declaration.
 
 Verification material and working configuration were preserved because current evidence identifies no configuration defect. Documentation only changed; no application test rerun was needed. Existing daily automation was checked **ACTIVE**, routine notifications muted, and remains available to continue without an owner unblock. No owner involvement is currently required.
+
+## October 31 scheduled follow-up
+
+Checked beginning at 9:00 AM America/New_York with the approved Edge account session. **RAID and transfer calculators are now confirmed indexed** through individual URL inspections: each reports **URL is on Google / Page is indexed**. The transfer page's expanded details show last crawl **Oct 31, 2026, 5:18:12 AM**, Googlebot smartphone, fetch successful, crawl/indexing allowed, referring page the homepage, production user-declared canonical and Google-selected canonical **Inspected URL**. No referring sitemap is detected. No manual indexing acceptance is being credited for this crawl.
+
+The homepage remains individually confirmed indexed. The energy calculator and both guides remain **URL is unknown to Google**, with no recorded crawl. Aggregate indexing still reports **Indexed 1 / Not indexed 0, No reasons**, lagging the individual inspection evidence; it must not override the newer confirmed calculator statuses.
+
+Sitemap still reports **Unknown / Couldn't fetch / 0 discovered pages**, submitted October 19, blank last-read cell. No resubmission was made. Google's live test at **Oct 31, 2026, 9:02 AM** reports **URL is available to Google / Page can be indexed**. Ingestion remains unverified. Manual actions: **No issues detected**.
+
+The rolling **7 days** performance view covers **October 23–29**, showing **0 clicks, 0 impressions, 0% CTR**. The wider available chart covers **October 18–29**, also zero totals with no query rows. This data precedes today's calculator crawl and does not yet show acquisition or measured rankings; a full 28-day post-launch baseline is unavailable.
+
+One useful request for the unindexed `/energy-cost/` returned **Quota Exceeded**, asking to retry tomorrow, with the reCAPTCHA-service connection warning. **Zero accepted requests today**; further requests stopped immediately. No repeat request was needed for the indexed calculators or homepage. No challenge was solved or limit bypassed.
+
+All **17** public route/asset/security/canonical checks pass at **13:02:01 UTC**. Separate XML/robots checks confirm HTTP 200, `application/xml`, 10 parsed URLs and crawling allowed with the correct sitemap declaration. Existing verification and working configuration were preserved; no concrete site defect or query-led content opportunity was established. Documentation only changed, requiring no application test rerun. Automation checked **ACTIVE**, daily at 9:00 AM, routine notifications muted. Continue automatically on November 1 without an owner unblock, prioritizing actual ingestion and remaining useful indexing requests within Google's limits. No owner involvement is needed.
