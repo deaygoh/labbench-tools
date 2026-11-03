@@ -219,3 +219,9 @@ The approved Edge session is accessible again, resolving the November 2 connecti
 - All **17** public route/asset/security/canonical checks pass at **13:56:47 UTC**. Separate XML/robots checks confirm HTTP 200, `application/xml`, 10 parsed URLs and crawling allowed with the exact sitemap declaration.
 
 Verification material and working configuration were preserved; current evidence identifies no concrete technical defect or query-led content change. Documentation only changed, requiring no application test rerun. Automation checked **ACTIVE**, daily at 9:00 AM America/New_York, routine notifications muted. Continue automatically November 4 without an owner unblock, rechecking ingestion, guide discovery and actual performance within Google's limits. No owner involvement is currently needed.
+
+### Upstream build regression found during publication
+
+The evidence push encountered a new remote commit, `1c5ffb2` (November 2), which changed the sitemap output path from `dist/sitemap.xml` to `dist/sitemap.xml/`. Both its GitHub `verify` and Cloudflare Pages checks report **failure**. The remote work was fetched and integrated without overwriting history. Local Windows tests passed even with that trailing slash, demonstrating that this platform did not reproduce the hosted build failure.
+
+Restored the file output path to `dist/sitemap.xml`, preserving XML content, public sitemap URL and Google verification material. This corrects an observed deployment regression, not a speculative sitemap-ingestion change. All **21** tests pass after the correction and the production-origin build succeeds for **10** pages. The earlier documentation-only statement describes the initial polling work; this final publication also includes the one-character path correction and its validation. Hosted checks must pass before considering deployment restored. No successful Google sitemap ingestion is claimed from this correction.
